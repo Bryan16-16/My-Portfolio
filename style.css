@@ -178,6 +178,66 @@ width: 50%;
 .tab-contents ul li span{
     font-size: 17px;
 }
+
+/* ---------------------------Technology Stack-------------------------- */
+.tech{
+    padding: 30px 0;
+}
+
+.tech-div{
+    height: 160px;
+    width: 160px;
+}
+.tech-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    grid-gap: 20px;
+    margin-top: 50px;
+
+}
+.tech-list div {
+    background: #aac9ee;
+    padding: 40px;
+    font-size: 13px;
+    font-weight: 300;
+    border-radius: 10px;
+    transition: background 0.5s, transform 0.5s;
+}
+
+.tech-list div i {
+    font-size: 72px;
+    margin-bottom: 10px;
+}
+.tech-list div h2{
+    font-size: 18px;
+    text-align: center;
+    align-items: center;
+    font-weight:600 ;
+    margin-bottom: 15px;
+}
+/* .tech-list div a{
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+    margin-top: 20px;
+    display: inline-block;
+    background-color: #f7e7d4;
+    padding: 8px 20px;
+    border-radius: 30px;
+    transition: background 0.5s;
+    
+} */
+.tech-list div:hover{
+    background: #2a77d5a4;
+    transform: translateY(-10px);
+}
+
+.tech-list div img {
+    width: 71px;
+    height: 71px;
+    margin-bottom: 9px;
+} 
+
 /* -------------------SERVICES----------------------------- */
 .services{
     padding: 30px 0;
