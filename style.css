@@ -227,16 +227,27 @@ width: 50%;
     transition: background 0.5s;
     
 } */
-.tech-list div:hover{
-    background: #2a77d5a4;
-    transform: translateY(-10px);
-}
+
 
 .tech-list div img {
     width: 71px;
     height: 71px;
     margin-bottom: 9px;
+    
 } 
+
+/* image filter hover invert image */
+.tech-list div:hover {
+    background: #2a77d5a4;
+    transform: translateY(-10px);
+    color: white;
+}
+
+.tech-list div:hover img {
+    filter: invert(1);
+}
+
+
 
 /* -------------------SERVICES----------------------------- */
 .services{
@@ -281,6 +292,7 @@ width: 50%;
 .services-list div:hover{
     background: #2a77d5a4;
     transform: translateY(-10px);
+
 }
 
 
