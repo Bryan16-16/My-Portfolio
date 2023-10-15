@@ -8,12 +8,13 @@
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/6e55d4c840.js" crossorigin="anonymous"></script>
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="script.js"></script>
 </head>
 <body>
 <div id="header">
 
-    <div class="container">
-        <nav>
+    <div class="container ">
+        <nav class="nav show1">
             <img src="images/logo2.png" alt="logo" class="logo">
             <ul id="sidemenu">
                 <li> <a href="#header">HOME </a></li>
@@ -26,7 +27,7 @@
             <i class="fa-solid fa-bars" onclick="openmenu()"></i>
         </nav>
 
-        <div class="header-text">
+        <div class="header-text show1">
             <p>Frontend Developer &  <br> Programmer</p>
             <h1>Hi, I'm <br> <span>Bryan Nathaniel</span> </h1>
         </div>
@@ -36,24 +37,24 @@
 <!-- -------------------ABOUT------------------------ -->
 <div id="about">
     <div class="container">
-        <div class="row">
-            <div class="about-col-1">
+        <div class="row ">
+            <div class="about-col-1 show1">
                 <img src="images/toga.jpg" alt="">
             </div>
             <div class="about-col-2">
-                <h1 class="sub-title">About Me</h1>
-                <p class="p-about">I am a graduate of Bachelor of Science degree in Information Technology, from STI College Calamba. I am highly motivated to learn new things, with a strong passion for technology. I experienced a variety of programming languages, including Python, C#, PHP, SQL and Web Technologies HTML, CSS and JavaScript. I am also experienced in using a variety of software development tools and technologies. 
+                <h1 class="sub-title show1">About Me</h1>
+                <p class="p-about show1">I am a graduate of Bachelor of Science degree in Information Technology, from STI College Calamba. I am highly motivated to learn new things, with a strong passion for technology. I experienced a variety of programming languages, including Python, C#, PHP, SQL and Web Technologies HTML, CSS and JavaScript. I am also experienced in using a variety of software development tools and technologies. 
         </p> <br>
-        <p class="p-about">
+        <p class="p-about show1">
             I am also an excellent communicator and team player. I am confident that I can make a significant contribution to your company. I am eager to start my career in the IT industry and learn more about the latest technologies.</p>
                 <br>
-                <div class="tab-titles">
+                <div class="tab-titles show1">
                     <p class="tab-links active-links" onclick="opentab('skills')">Certification</p>
                     <!-- <p class="tab-links" onclick="opentab('cert')">Certification</p> -->
                     <p class="tab-links" onclick="opentab('experience')">Experience</p>
                     <p class="tab-links" onclick="opentab('education')">Education</p>
                 </div>
-                <div class="tab-contents active-tab" id="skills">
+                <div class="tab-contents active-tab show1" id="skills">
                     <!-- <ul>
                         <li>Computer Maintenance</li>
                         <li>Computer literate in MS Office</li>
@@ -94,7 +95,7 @@
 
 
                 
-                <div class="tab-contents" id="experience">
+                <div class="tab-contents show1" id="experience">
                     <ul>
                        <li> <span style="font-weight: bold; color: #050505;"> Administrative Support & Public Assistance</span> <br>
                         Philippine Health Insurance Corporation <br>
@@ -107,7 +108,7 @@
                     </ul>
                 </div>
 
-                <div class="tab-contents" id="education">
+                <div class="tab-contents show1" id="education">
                     <ul>
                         <li> <span style="font-weight: bold; color: #050505;"> Bachelor of Science in Information Technology</span> <br>
                             STI College Calamba <br>
@@ -129,7 +130,7 @@ Dalta - Calamba
 <div id="tech">
     <div class="container">
         <h1 class="sub-title">Technology Stack</h1>
-        <div class="tech-list">
+        <div class="tech-list show1">
             <div class="tech-div">
                 <i class='bx bxl-html5'></i>
                 <h2>HTML</h2>
@@ -228,9 +229,9 @@ Dalta - Calamba
 <!-- ---------------------PORTFOLIO------------------------------------ -->
 <div id="portfolio">
     <div class="container">
-        <h1 class="sub-title">My Work</h1>
+        <h1 class="sub-title show1">My Work</h1>
         <div class="work-list">
-            <div class="work">
+            <div class="work show1">
                 <a href="http://my-ecommerce-web-app.42web.io/index.html" target="_blank"><img src="images/ecommerce.png" alt=""></a>
                 <div class="layer">
                     <h3>BN Store | Ecommerce Website</h3>
@@ -244,7 +245,7 @@ Dalta - Calamba
                 <!-- <p class="small-screen-only">This paragraph will only show on small screens.</p>  -->
 
             </div>
-            <div class="work"> 
+            <div class="work show1"> 
                 <a href="http://weather-web-app.42web.io/" target="_blank">
                     <img src="images/weather1.png" alt="">
                 </a>
@@ -257,7 +258,7 @@ Dalta - Calamba
                 </div>
                 
             </div>
-            <div class="work">
+            <div class="work show1">
               <a href="http://js-game-roll-dice.42web.io/" target="_blank">
                 <img src="images/jsgame3.png" alt="">
               </a>
@@ -280,7 +281,7 @@ Dalta - Calamba
 <div id="contact">
     <div class="container">
         <div class="row">
-            <div class="contact-left">
+            <div class="contact-left show1">
                 <h1 class="sub-title">Contact Me</h1>
                 <p style="font-size: 20px ;"> <i class="fa-solid fa-paper-plane"></i> onabryannathaniel@gmail.com</p>
                 <p style="font-size: 20px ;"> <i class="fa-solid fa-phone"></i> 09201909073</p>
@@ -294,7 +295,7 @@ Dalta - Calamba
 
                 <a href="images/Bryan Nathaniel Ona.pdf" download="" class="btn btn2" >Download Resume</a>
             </div>
-            <div class="contact-right">
+            <div class="contact-right show1">
                 <span id="msg"></span>
                 <form name="submit-to-google-sheet" action="">
                     <input type="text" name="name" id="" placeholder="Your Name" required>
@@ -307,7 +308,7 @@ Dalta - Calamba
             </div>
         </div>
     </div>
-    <div class="copyright">
+    <div class="copyright show1">
         <p>Copyright © Bryan Nathaniel <i class="fa-solid fa-heart"></i></p>
     </div>
 </div>

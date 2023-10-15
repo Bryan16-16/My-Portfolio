@@ -554,3 +554,43 @@ nav .fa-solid{
     font-size: 17px;
     font-weight: 500;
 }
+
+/* new code  */
+/* .container{
+    transform: translateX(100%);
+    opacity: 1;
+    transition: 150ms;
+}
+
+.container.show{
+    transform: translateX(0);
+    opacity: 1;
+} 
+
+
+.container {
+    transform: translateY(-100px);
+    opacity: 0; 
+    transition: transform 0.5s ease, opacity 0.5s ease; 
+}
+
+.container.show {
+    transform: translateY(0);
+    opacity: 1; 
+}
+
+
+*/
+
+
+
+.show1 {
+    transform: translateX(-100px);
+    opacity: 0; /* Start with opacity 0 to make it fade in smoothly */
+    transition: transform 0.8s ease, opacity 0.8s ease; /* Adjust the duration and timing function */
+}
+
+.show1.show2 {
+    transform: translateX(0);
+    opacity: 1; /* Make sure opacity is 1 when the container is fully visible */
+}
