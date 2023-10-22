@@ -25,6 +25,11 @@ body{
     
 }
 
+.fsdev{
+    text-decoration: underline;
+    text-decoration-color: #2a77d5;
+}
+
 
 .container{
     padding: 10px 10%; 
@@ -168,6 +173,11 @@ width: 50%;
 
 .tab-contents ul li span{
     font-size: 17px;
+}
+
+
+.tab-icon{
+    color: #2a77d5;
 }
 
 /* ---------------------------Technology Stack-------------------------- */
@@ -586,9 +596,6 @@ nav .fa-solid{
     opacity: 1; /* Make sure opacity is 1 when the container is fully visible */
 }
 
-.fsdev{
-    text-decoration: underline;
-    text-decoration-color: #2a77d5;
-}
+
 
 /* CSS comment */
