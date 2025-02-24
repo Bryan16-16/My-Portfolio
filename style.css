@@ -299,9 +299,8 @@ width: 50%;
 }
 
 .services-list div:hover i, h2, p{
-    filter: invert(1);
+    color: white;
 }
-
 
 
 /* ---------------------PORTFOLIO------------------------------------  */
