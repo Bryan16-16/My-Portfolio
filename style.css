@@ -97,7 +97,7 @@ width: 100%;
 /* -------------------ABOUT----------------------- */
 #about{
     padding: 80px 0;
-    color:#050505;
+    color:hsl(0, 0%, 2%);
 }
 .row{
     display: flex;
@@ -298,11 +298,15 @@ width: 50%;
 
 }
 
-.services-list div:hover i, h2, p{
+.services-list div:hover i{
     color: white;
 }
-
-
+.services-list div:hover p{
+    color: white;
+}
+.services-list div:hover h2{
+    color: white;
+}
 /* ---------------------PORTFOLIO------------------------------------  */
 #portfolio{
     padding: 50px 0;
