@@ -290,11 +290,18 @@ width: 50%;
     transition: background 0.5s;
     
 }
+
+/* image filter hover invert icon and text */
 .services-list div:hover{
     background: #2a77d5a4;
     transform: translateY(-10px);
 
 }
+
+.services-list div:hover i, h2, p{
+    filter: invert(1);
+}
+
 
 
 /* ---------------------PORTFOLIO------------------------------------  */
