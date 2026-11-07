@@ -19,7 +19,7 @@ body{
     height: 100vh;
     background-color: #fafafa;
     background-blend-mode:multiply ;
-    background-image: url(images/formal1.png);
+    /* background-image: url(images/formal1.png); */
     background-size: cover;
     background-position: center;
     
